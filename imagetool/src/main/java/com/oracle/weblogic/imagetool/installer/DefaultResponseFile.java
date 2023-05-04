@@ -35,6 +35,7 @@ public class DefaultResponseFile implements ResponseFile {
     private static final String R_WCP = "WebCenter Portal";
     private static final String R_WCS = "WebCenter Sites";
     private static final String R_ODI = "Oracle Data Integrator";
+    private static final String R_OAS = "Oracle Analytics Server";
 
     private final String installTypeResponse;
     private final String filename;
@@ -97,6 +98,9 @@ public class DefaultResponseFile implements ResponseFile {
                 break;
             case ODI:
                 response = R_ODI;
+                break;
+	    case OAS:
+                response = R_OAS;
                 break;
             case WLS:
             default:

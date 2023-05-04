@@ -82,7 +82,9 @@ public enum FmwInstallerType {
     OHS(Collections.singleton(AruProduct.OHS),
         InstallerType.OHS),
     ODI(Collections.singleton(AruProduct.ODI),
-        InstallerType.ODI)
+        InstallerType.ODI),
+    OAS(Utils.toSet(FMW.products, AruProduct.OAS),
+        InstallerType.FMW, InstallerType.OAS)
     ;
 
     private final InstallerType[] installers;

@@ -29,7 +29,8 @@ public enum AruProduct {
     OWSM("12787", "Oracle Webservices Manager"),
     JDBC("9512", "Oracle JDBC for Fusion Middleware"),
     FIT("33256", "Middleware Common Libraries and Tools"),
-    ODI("13724", "Oracle Data Integrator")
+    ODI("13724", "Oracle Data Integrator"),
+    OAS("14667", "Oracle Analytics Server")
     ;
 
     private final String productId;

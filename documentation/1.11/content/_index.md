@@ -68,3 +68,4 @@ Use WebLogic Image Tool to create, update, and rebase the following FMW product 
 * Oracle Identity Manager (IDM)
 * Oracle WebCenter Content (WCC)
 * Oracle WebCenter Portal (WCP)
+* Oracle Analytics Server (OAS)

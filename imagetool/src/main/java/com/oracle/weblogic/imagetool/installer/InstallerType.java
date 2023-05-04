@@ -27,7 +27,8 @@ public enum InstallerType {
     WCS("wcs"),
     JDK("jdk"),
     WDT("wdt"),
-    ODI("odi");
+    ODI("odi"),
+    OAS("oas");
 
     private final String value;
 
