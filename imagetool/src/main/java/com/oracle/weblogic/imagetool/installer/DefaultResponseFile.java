@@ -99,7 +99,7 @@ public class DefaultResponseFile implements ResponseFile {
             case ODI:
                 response = R_ODI;
                 break;
-	    case OAS:
+            case OAS:
                 response = R_OAS;
                 break;
             case WLS:
